@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tabla de artículos comprados:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>article_id</th>
+                <th>product_code</th>
+                <th>prod_name</th>
+                <th>product_type_no</th>
+                <th>product_type_name</th>
+                <th>product_group_name</th>
+                <th>graphical_appearance_no</th>
+                <th>graphical_appearance_name</th>
+                <th>colour_group_code</th>
+                <th>colour_group_name</th>
+                <th>perceived_colour_value_id</th>
+                <th>perceived_colour_value_name</th>
+                <th>perceived_colour_master_id</th>
+                <th>perceived_colour_master_name</th>
+                <th>department_no</th>
+                <th>department_name</th>
+                <th>index_code</th>
+                <th>index_name</th>
+                <th>index_group_no</th>
+                <th>index_group_name</th>
+                <th>section_no</th>
+                <th>section_name</th>
+                <th>garment_group_no</th>
+                <th>garment_group_name</th>
+                <th>detail_desc</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ tabla1|safe }}
+        </tbody>
+    </table>
+
+    <h1>Tabla de artículos recomendados:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>article_id</th>
+                <th>product_code</th>
+                <th>prod_name</th>
+                <th>product_type_no</th>
+                <th>product_type_name</th>
+                <th>product_group_name</th>
+                <th>graphical_appearance_no</th>
+                <th>graphical_appearance_name</th>
+                <th>colour_group_code</th>
+                <th>colour_group_name</th>
+                <th>perceived_colour_value_id</th>
+                <th>perceived_colour_value_name</th>
+                <th>perceived_colour_master_id</th>
+                <th>perceived_colour_master_name</th>
+                <th>department_no</th>
+                <th>department_name</th>
+                <th>index_code</th>
+                <th>index_name</th>
+                <th>index_group_no</th>
+                <th>index_group_name</th>
+                <th>section_no</th>
+                <th>section_name</th>
+                <th>garment_group_no</th>
+                <th>garment_group_name</th>
+                <th>detail_desc</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ tabla2|safe }}
+        </tbody>
+    </table>
+</body>
+</html>

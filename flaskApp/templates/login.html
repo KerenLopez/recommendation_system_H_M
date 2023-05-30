@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/35f16409f9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <style>
+		body {
+            background-color: #F6E7CE;
+			font-family: "Arimo", Arimo;
+            font-size: 14px;
+            color: #4A1F17;
+		}
+        footer {
+            margin-top: 80px;
+            text-align: center;
+            background-color: #BF9460;
+            font-size: 13px;
+            color: #4A1F17;
+        }
+	</style>
+</head>
+<body>
+    <a href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/2560px-H%26M-Logo.svg.png" class="mx-auto d-block" style="width: 80px; height: 50px; margin-top: 50px;">
+    </a>
+    <nav class="navbar navbar-expand-lg mx-auto d-block" style = "margin-top: 10px; margin-bottom: 50px;" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Mujer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Hombre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Divided</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Bebé</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Niños</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #4A1F17;">Sport</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: black;">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: black;">Sostenibilidad</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4" style="max-width: 400px;">
+        <h4 style="font-weight: bold;">Iniciar sesión</h4><br>
+        {% if error %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+        <form method="POST">
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn" style="background-color: #CB071D; color: white; font-size: 15px;">Entrar</button>
+        </form>
+    </div>
+
+    <footer class="py-3" >
+        <div class="container">
+            <span>Síguenos en:</span>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f" style="color: #4A1F17;"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter" style="color: #4A1F17;"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram" style="color: #4A1F17;"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <span> Universidad Icesi, Inteligencia artificial 2023-1 </span> <br>
+            <span>  &copy; Angélica Corrales y Keren López</span><br>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
