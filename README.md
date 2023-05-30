@@ -16,4 +16,5 @@ En la carpeta static se encuentra el directorio de imágenes, el cual se puede d
 
 ![static](readme/images.png)
 
+En el siguiente enlace puede encontrar un [resumen del desarrollo del proyecto](https://icesiedu-my.sharepoint.com/:b:/g/personal/1111538056_u_icesi_edu_co/ETayt_-x80FFixSgpraNmrUBmCeSbwTbri_5hXTrQiyVFA?e=xlsunw)
 
