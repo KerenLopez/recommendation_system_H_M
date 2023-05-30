@@ -8,9 +8,9 @@ No fue posible subir al repositorio todos los archivos necesarios para el despli
 ![flaskapp](readme/flaskapp.png)
 
 Los conjuntos de datos utilizados para el despliegue se pueden obtener en los siguientes enlaces:
-* [articles](https://icesiedu-my.sharepoint.com/:x:/g/personal/1111538056_u_icesi_edu_co/EVYuqX1EaEpBqOCswr6BgN8B6LmIBNSt55BZoYy_UnKbVg?e=pzdSwF)
-* [kmodesClusters](https://icesiedu-my.sharepoint.com/:x:/g/personal/1111538056_u_icesi_edu_co/EVGrkQzd6w5LjVK0KMGGoUwBC36-4PHlUF76NpNYLiSHTQ?e=irYYHC)
-* [merged](https://icesiedu-my.sharepoint.com/:x:/g/personal/1111538056_u_icesi_edu_co/EZcv4CvSovhEnP8F09C0ElEBp1uw8c1nT3GHLu4bDLLSXA?e=D2vBc7)
+* [articles](https://drive.google.com/file/d/1G5bQxTFQ62K84A7MhvwHMgT1ER8ljGhS/view?usp=sharing)
+* [kmodesClusters](https://drive.google.com/file/d/12X63-cpHJk15K3_-zk0RJpgifbVVAO55/view?usp=sharing)
+* [merged](https://drive.google.com/file/d/1bNxkt2aftZNgTvjnj-YHF_754kL9OH7V/view?usp=sharing)
 
 En la carpeta static se encuentra el directorio de imágenes, el cual se puede descargar desde el concurso de Kaggle [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=images)
 
