@@ -1,5 +1,7 @@
 import pandas as pd
 
+print("Keren Empresarial estuvo aqui")
+
 pathArticles = 'articles.csv'
 pathClusters = 'kmodesClusters.csv'
 pathMerged = 'merged.csv'
